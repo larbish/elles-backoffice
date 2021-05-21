@@ -1,0 +1,36 @@
+{
+  "kind": "collectionType",
+  "collectionName": "festival_weekends",
+  "info": {
+    "name": "FestivalWeekends"
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "access": {
+      "type": "richtext"
+    },
+    "pricing": {
+      "type": "richtext"
+    },
+    "program": {
+      "type": "richtext"
+    },
+    "title": {
+      "type": "string"
+    },
+    "startDate": {
+      "type": "date"
+    },
+    "endDate": {
+      "type": "date"
+    },
+    "festival_days": {
+      "collection": "weekends"
+    }
+  }
+}

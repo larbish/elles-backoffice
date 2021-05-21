@@ -2,7 +2,7 @@
   "kind": "collectionType",
   "collectionName": "weekends",
   "info": {
-    "name": "Weekends",
+    "name": "FestivalDays",
     "description": ""
   },
   "options": {
@@ -17,9 +17,6 @@
     },
     "date": {
       "type": "datetime"
-    },
-    "program": {
-      "type": "richtext"
     },
     "cover": {
       "model": "file",
