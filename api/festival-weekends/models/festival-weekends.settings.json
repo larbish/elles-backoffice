@@ -30,7 +30,7 @@
     "endDate": {
       "type": "date"
     },
-    "Cover": {
+    "cover": {
       "collection": "file",
       "via": "related",
       "allowedTypes": [
