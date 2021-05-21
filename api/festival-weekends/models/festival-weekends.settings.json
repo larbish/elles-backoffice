@@ -2,7 +2,8 @@
   "kind": "collectionType",
   "collectionName": "festival_weekends",
   "info": {
-    "name": "FestivalWeekends"
+    "name": "FestivalWeekends",
+    "description": ""
   },
   "options": {
     "increments": true,
@@ -31,6 +32,18 @@
     },
     "festival_days": {
       "collection": "weekends"
+    },
+    "Cover": {
+      "collection": "file",
+      "via": "related",
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos"
+      ],
+      "plugin": "upload",
+      "required": false,
+      "pluginOptions": {}
     }
   }
 }
