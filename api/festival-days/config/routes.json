@@ -2,48 +2,48 @@
   "routes": [
     {
       "method": "GET",
-      "path": "/weekends",
-      "handler": "weekends.find",
+      "path": "/festival-days",
+      "handler": "festival-days.find",
       "config": {
         "policies": []
       }
     },
     {
       "method": "GET",
-      "path": "/weekends/count",
-      "handler": "weekends.count",
+      "path": "/festival-days/count",
+      "handler": "festival-days.count",
       "config": {
         "policies": []
       }
     },
     {
       "method": "GET",
-      "path": "/weekends/:id",
-      "handler": "weekends.findOne",
+      "path": "/festival-days/:id",
+      "handler": "festival-days.findOne",
       "config": {
         "policies": []
       }
     },
     {
       "method": "POST",
-      "path": "/weekends",
-      "handler": "weekends.create",
+      "path": "/festival-days",
+      "handler": "festival-days.create",
       "config": {
         "policies": []
       }
     },
     {
       "method": "PUT",
-      "path": "/weekends/:id",
-      "handler": "weekends.update",
+      "path": "/festival-days/:id",
+      "handler": "festival-days.update",
       "config": {
         "policies": []
       }
     },
     {
       "method": "DELETE",
-      "path": "/weekends/:id",
-      "handler": "weekends.delete",
+      "path": "/festival-days/:id",
+      "handler": "festival-days.delete",
       "config": {
         "policies": []
       }

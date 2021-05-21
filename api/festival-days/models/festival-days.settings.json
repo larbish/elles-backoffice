@@ -1,9 +1,8 @@
 {
   "kind": "collectionType",
-  "collectionName": "weekends",
+  "collectionName": "festival_days",
   "info": {
-    "name": "FestivalDays",
-    "description": ""
+    "name": "festival-days"
   },
   "options": {
     "increments": true,
@@ -12,14 +11,14 @@
   },
   "pluginOptions": {},
   "attributes": {
-    "name": {
+    "title": {
       "type": "string"
     },
-    "date": {
+    "dateAndHour": {
       "type": "datetime"
     },
     "cover": {
-      "model": "file",
+      "collection": "file",
       "via": "related",
       "allowedTypes": [
         "images",
@@ -31,7 +30,7 @@
       "pluginOptions": {}
     },
     "artists": {
-      "type": "text"
+      "type": "string"
     },
     "color": {
       "type": "string"

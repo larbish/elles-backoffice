@@ -30,9 +30,6 @@
     "endDate": {
       "type": "date"
     },
-    "festival_days": {
-      "collection": "weekends"
-    },
     "Cover": {
       "collection": "file",
       "via": "related",
@@ -44,6 +41,9 @@
       "plugin": "upload",
       "required": false,
       "pluginOptions": {}
+    },
+    "festival_days": {
+      "collection": "festival-days"
     }
   }
 }
