@@ -1,0 +1,52 @@
+{
+  "routes": [
+    {
+      "method": "GET",
+      "path": "/weekends",
+      "handler": "weekends.find",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/weekends/count",
+      "handler": "weekends.count",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/weekends/:id",
+      "handler": "weekends.findOne",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "POST",
+      "path": "/weekends",
+      "handler": "weekends.create",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "PUT",
+      "path": "/weekends/:id",
+      "handler": "weekends.update",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "DELETE",
+      "path": "/weekends/:id",
+      "handler": "weekends.delete",
+      "config": {
+        "policies": []
+      }
+    }
+  ]
+}
