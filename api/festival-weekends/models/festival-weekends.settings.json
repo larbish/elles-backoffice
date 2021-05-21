@@ -42,7 +42,7 @@
       "required": false,
       "pluginOptions": {}
     },
-    "festival_days": {
+    "festivalDays": {
       "collection": "festival-days"
     }
   }
