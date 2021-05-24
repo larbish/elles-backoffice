@@ -1,0 +1,21 @@
+{
+  "kind": "collectionType",
+  "collectionName": "link_and_titles",
+  "info": {
+    "name": "linkAndTitle"
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "link": {
+      "type": "string"
+    },
+    "title": {
+      "type": "string"
+    }
+  }
+}

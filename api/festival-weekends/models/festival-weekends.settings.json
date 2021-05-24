@@ -18,9 +18,6 @@
     "pricing": {
       "type": "richtext"
     },
-    "program": {
-      "type": "richtext"
-    },
     "title": {
       "type": "string"
     },
@@ -44,6 +41,15 @@
     },
     "festivalDays": {
       "collection": "festival-days"
+    },
+    "color": {
+      "type": "string"
+    },
+    "metaTitle": {
+      "type": "string"
+    },
+    "metaDescription": {
+      "type": "text"
     }
   }
 }
