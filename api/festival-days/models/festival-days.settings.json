@@ -19,7 +19,7 @@
       "type": "datetime"
     },
     "cover": {
-      "collection": "file",
+      "model": "file",
       "via": "related",
       "allowedTypes": [
         "images",
